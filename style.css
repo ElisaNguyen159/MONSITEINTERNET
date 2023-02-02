@@ -1,0 +1,135 @@
+body {
+padding: 100px; 
+}
+h1 {
+  font-family: Courier New, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: Black;
+  background-color: #FFD700;
+}
+p {
+  font-family: Tahoma;
+  font-size: 20px;
+}
+img {
+  max-width: 50%; 
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+
+.element {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 10px; /* Hauteur de l'élément /
+width: 100px; / Largeur de l'élément */
+}
+
+.container {
+display: flex;
+justify-content: space-around;
+}
+
+.sub-container {
+width: 30%;
+background-color: black;
+padding: 50px;
+margin: 50px;
+}
+
+.sub-container-img {
+width: 100px;
+}
+
+.texte.blanc {
+color: white;
+}
+
+.video-responsive {
+ overflow:hidden;
+ padding-bottom:56.25%; 
+ position:relative;
+ height:0;
+}
+.video-responsive iframe {
+ left:0;
+ top:0;
+ height:100%;
+ width:100%;
+ position:absolute;
+}
+              
+.cards {
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-element {
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+  .form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: black;
+  color: black;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+.input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+.input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
